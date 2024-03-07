@@ -6,13 +6,13 @@ public class latihan6 {
         x.setNrp(01);
         y.setNrp(02);
 
-        System.out.println(x.getNrp()); //di print pertama (2)
+        System.out.println(x.getNrp()); //sehingga x disini itu 1
         Student z = new Student(0);
 
         z.setNrp(03);
-        x = z; // karena z=3 maka x = 3
+        x = z; //terikat dengan z
 
         System.out.println(x.getNrp()); //sehingga x disini itu 3
-        System.out.println(y.getNrp()); //sedangkan y masih 2 krna terikat dengan x yg lama
+        System.out.println(y.getNrp()); //sehingga y disini itu 2
     }
 }
