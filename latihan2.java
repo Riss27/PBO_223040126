@@ -9,6 +9,8 @@ public class latihan2 {
         System.out.println(l2.getJari2());
         System.out.println(l3.getJari2());
 
+        l2 = l3; //l2 terikat dengan l3
+
         System.out.println(l1.getJari2());
         System.out.println(l2.getJari2());
         System.out.println(l3.getJari2());
