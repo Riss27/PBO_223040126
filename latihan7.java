@@ -8,11 +8,12 @@ public class latihan7 {
 
         ubahJari2(l2); //value l2 diubah dengan fungsi ubahNrp
 
-        System.out.println(l1.getJari2()); //4 (krna l1 terikat sama l2 = 4)
+        System.out.println(l1.getJari2()); //4
         System.out.println(l2.getJari2()); //4
     }
 
     public static void ubahJari2(Lingkaran obj){
-        obj.setJari2(4); //l2 menjadi 4
+        obj.setJari2(4); //mengubah value jari2 obj
+    
     }
 }
