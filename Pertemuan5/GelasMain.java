@@ -22,7 +22,8 @@ public class GelasMain
         g1.setWarna(g2.getWarna());
         g2.setWarna(gTemp.getWarna());
 
-        // Fungsi ini bertujuan untuk menukar warna antara dua objek gelas. Warna dari masing-masing gelas disimpan sementara dalam sebuah variabel. Kemudian, warna gelas pertama diganti dengan warna gelas kedua, dan sebaliknya. Sehingga warna antara kedua gelas berhasil ditukar.
+        // Fungsi ini bertujuan untuk menukar warna antara dua objek gelas. Warna dari masing-masing gelas disimpan sementara dalam sebuah variabel. 
+        // Kemudian, warna gelas pertama diganti dengan warna gelas kedua, dan sebaliknya. Sehingga warna antara kedua gelas berhasil ditukar.
 
     }
 }
